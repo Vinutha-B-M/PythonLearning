@@ -1,0 +1,72 @@
+     
+Variable: Are containers for storing value.
+
+Datatypes: Storing data of diff types which perform diff actions.
+   Ex: str,int,float,comples,list,tuple,range.
+   
+Function : Is a block of code whch only runs when it is called.   
+        Advantages: * we can avoid rewriting the same code in one prgm.
+                    * we can track a large prgm easily whn it is divided into multiple functions.
+                    * we can call function anywhere & call multiple times.
+
+Parameter: Is a variable listed inside parenthesis in function definition.
+
+Argument: Is the value that is sent to function when it is called.
+
+
+Built-in Function: Is a function that is already available in a program language.
+    ->print
+      print("Hello world")
+      
+    ->input
+      input("enter your name")
+      
+    ->type
+      a = 3
+      type(a)
+      
+    ->abs(absolute function / modulous function)
+      abs(-4) => 4
+      
+User defined function: Function that is defined by the user to do certain task.
+
+Recursive function: Function that calls itself
+
+Keyword: Reserved words that have specific meaning & purpose.
+          Ex: and,as,def,del,class,True,False....
+          
+PEP(Python Enhancement Proposal)
+    Is a design that describes new features for python community.
+    
+    - PEP 8 – Style Guide for Python Code
+    – PEP 257 – Docstring Conventions
+    
+    -> Surround binary operators by a single space
+         e.g. (“x + y” not “x+y”).
+    -> Comments should be complete sentences.
+    -> Class names should begin with a capital, and each distinct word in a class name should be capitalized. (e.g. class FileMonitor)
+    -> Module names, function names, and variable names should be lower case with words separated by underscores (e.g. def do_something())
+    
+Escape Characters
+  -> To insert characters that are illegal in a string, use an escape character.
+  -> An escape character is a backslash \ followed by the character you want to insert.
+  -> An example of an illegal character is a double quote inside a string that is surrounded by double quotes:
+       Ex: txt = "We are the so-called "Vikings" from the north."  -------->ERROR
+        
+           txt = "We are the so-called \"Vikings\" from the north."
+           
+   \'	  Single Quote	
+  \\	  Backslash	
+  \n	  New Line	
+  \r	  Carriage Return	
+  \t	  Tab	
+  \b	  Backspace	
+  \f	  Form Feed	
+  \ooo	Octal value	
+  \xhh	Hex value        
+
+          
+          
+     
+   
+   
